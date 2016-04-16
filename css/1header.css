@@ -1,0 +1,56 @@
+body {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif; }
+
+.site-header {
+  position: relative; }
+  .site-header .blue-top-line {
+    height: 30px;
+    background-color: #3BBDFB;
+    color: white;
+    padding-left: 30px; }
+  .site-header .header-logo-text {
+    background-image: url(../img/slider.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 180px; }
+    .site-header .header-logo-text .logo {
+      background-image: url(url(); }
+    .site-header .header-logo-text .header-name {
+      font-size: 36px;
+      padding-right: 5%;
+      font-weight: 700; }
+    .site-header .header-logo-text .header-slogan {
+      font-size: 24px;
+      padding-right: 5%; }
+    .site-header .header-logo-text .header-contacts {
+      text-align: left; }
+  .site-header nav {
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    border-top: 3px solid #D9D9D9;
+    border-bottom: 3px solid #D9D9D9;
+    text-align: center; }
+    .site-header nav .active {
+      color: #3BBDFB;
+      background-color: #F7F7F7;
+      height: 100%;
+      border-bottom: 3px solid #B7B5B6; }
+    .site-header nav a {
+      display: inline-block;
+      margin-left: 20px;
+      color: rgba(0, 0, 0, 0.7);
+      text-decoration: none;
+      text-transform: uppercase; }
+      .site-header nav a:hover {
+        color: #3BBDFB; }
+
+@media (max-width: 815px) {
+  header {
+    text-decoration: none; } }
